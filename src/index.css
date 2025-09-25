@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #8c52ff, #60e9ff);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #8c52ff #f1f1f1; /* For Firefox */
+}
+
+body,
+#root {
+  min-height: 100lvh !important;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  #navbar {
+    padding: 1.5rem;
+  }
+}
+
+/* For browsers that support backdrop-filter */
+@supports (backdrop-filter: blur(8px)) {
+  #navbar {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+  }
+}
+
+.mix-blend-difference {
+  mix-blend-mode: difference;
+}
+
+/* bloom styles */
+.smaller-element {
+  position: relative;
+}
+
+.smaller-element::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* width: 90%; */
+  /* height: 200px; */
+  background-color: #8c52ff; /* Change to your desired color */
+  border-radius: 1rem;
+  z-index: -1;
+}
+
+.smaller-element::before {
+  bottom: -10px;
+}
+
+/* blog */
+.blog__head {
+  background-image: url("./assets/blog/world-view.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
