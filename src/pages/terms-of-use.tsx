@@ -33,7 +33,7 @@ const TermsOfUse = () => {
               <span className="font-semibold">2.3 User Content:</span>
               You retain ownership of any content you upload, submit, or display
               on or through the App ("User Content"). By submitting User
-              Content, you grant Beetle Limited a worldwide, non-exclusive,
+              Content, you grant Snowball Limited a worldwide, non-exclusive,
               royalty-free license to use, reproduce, modify, adapt, publish,
               translate, distribute, and display such User Content.
             </p>
@@ -50,12 +50,12 @@ const TermsOfUse = () => {
               services provided on the App.
             </li>
             <li>
-              Gaining unauthorized access to Beetle Limited's data or the data
+              Gaining unauthorized access to Snowball Limited's data or the data
               of other users.
             </li>
             <li>
               Altering, modifying, adapting, reverse engineering, decompiling,
-              disassembling, or hacking Beetle Limited's intellectual property.
+              disassembling, or hacking Snowball Limited's intellectual property.
             </li>
             <li>
               Altering or modifying another website to falsely imply that it is
@@ -89,7 +89,7 @@ const TermsOfUse = () => {
               interruptions.
             </li>
             <li>
-              In case of unforeseen shutdowns, Beetle Limited will strive to
+              In case of unforeseen shutdowns, Snowball Limited will strive to
               restore full operation within 14 days.
             </li>
             <li>
@@ -100,7 +100,7 @@ const TermsOfUse = () => {
         </TextLayout>
         <TextLayout num="6" title="Survival">
           These Terms shall remain in effect for as long as the User uses or
-          accesses any of the services provided by Beetle Limited. Certain
+          accesses any of the services provided by Snowball Limited. Certain
           provisions, including but not limited to Indemnification, Disclaimer,
           Limitation of Liability, Controlling Law and Severability, and
           Confidentiality, shall survive termination.
@@ -109,18 +109,18 @@ const TermsOfUse = () => {
           <ul className="list-disc pl-5 space-y-2">
             <li>
               Users must ensure that all information they submit or transmit
-              fully complies with the law. Beetle Limited shall not be liable
+              fully complies with the law. Snowball Limited shall not be liable
               for the user's misuse of its data.
             </li>
             <li>
-              Beetle Limited reserves the right to revoke or restrict a user's
+              Snowball Limited reserves the right to revoke or restrict a user's
               access to its services in the event of a violation of the Terms of
               Use or any applicable law.
             </li>
             <li>
               Any information provided by a user will be assumed as the user's
               own or that the user has sufficient authorization for the provided
-              data. Thus, Beetle Limited will not be at risk of infringing any
+              data. Thus, Snowball Limited will not be at risk of infringing any
               intellectual property rights of third parties.
             </li>
             <li>
@@ -130,7 +130,7 @@ const TermsOfUse = () => {
           </ul>
         </TextLayout>
         <TextLayout num="8" title="Ammendments">
-          Beetle Limited reserves the right to modify or revise these Terms at
+          Snowball Limited reserves the right to modify or revise these Terms at
           any time. Users are encouraged to periodically review the Terms for
           any updates. Continued use of the Bloom App after any such changes
           constitutes acceptance of those changes.

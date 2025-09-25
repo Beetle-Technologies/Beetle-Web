@@ -7,7 +7,7 @@ const AdminDashboard = () => {
         <span>
           <PiBugBeetleBold />
         </span>
-        Welcome Beetle Admin
+        Welcome Snowball Admin
       </h1>
     </div>
   );

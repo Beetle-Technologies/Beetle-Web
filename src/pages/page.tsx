@@ -5,10 +5,26 @@ import Products from "./sections/products.tsx";
 import VisionSection from "./sections/vision.tsx";
 import Ballons from "../assets/ballons.png";
 import BallonsMobile from "../assets/mobile/ballons_mobile.png";
+import { SEOHead } from "../components/seo/SEOHead.tsx";
+import { useSEO } from "../hooks/useSEO.ts";
 
 export default function Home() {
+  const { generateStructuredData } = useSEO();
+
+  const structuredData = [
+    generateStructuredData.organization(),
+    generateStructuredData.website()
+  ];
+
   return (
     <>
+      <SEOHead
+        title="Snowball | Making Commerce Better For Everyone"
+        description="Snowball is revolutionizing commerce with innovative solutions for businesses and resellers. Join our platform to grow your business and reach new markets."
+        keywords="snowball, commerce, business, resellers, ecommerce, platform, online business, marketplace"
+        type="website"
+        structuredData={structuredData}
+      />
       <HeroSection />
       <VisionSection />
       <Driven />

@@ -1,0 +1,44 @@
+User-agent: *
+Allow: /
+
+# Block admin routes
+Disallow: /admin/
+Disallow: /admin/*
+
+# Allow important pages
+Allow: /
+Allow: /bloom/businesses
+Allow: /bloom/resellers
+Allow: /blog
+Allow: /privacy-policy
+Allow: /legal/
+
+# Block development/testing routes if any
+Disallow: /test/
+Disallow: /dev/
+
+# Sitemap location
+Sitemap: https://snowball.com/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Google-specific directives
+User-agent: Googlebot
+Allow: /
+Allow: /bloom/businesses
+Allow: /bloom/resellers
+Allow: /blog
+Allow: /privacy-policy
+Allow: /legal/
+Disallow: /admin/
+
+# Bing-specific directives
+User-agent: Bingbot
+Allow: /
+Allow: /bloom/businesses
+Allow: /bloom/resellers
+Allow: /blog
+Allow: /privacy-policy
+Allow: /legal/
+Disallow: /admin/

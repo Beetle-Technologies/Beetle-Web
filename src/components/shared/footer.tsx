@@ -5,7 +5,7 @@ import { useAnimation } from "framer-motion";
 import InstagramIcon from "@/assets/socials/instagram.svg";
 import LinkedInIcon from "@/assets/socials/linkedin.svg";
 import TwitterIcon from "@/assets/socials/twitter.svg";
-import BeetleLogo from "@/assets/beetle-logo-white.svg";
+import SnowballLogo from "@/assets/beetle-logo-white.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -45,14 +45,14 @@ const Footer = () => {
         >
           <a href="/">
             <img
-              alt={"Beetle Logo"}
-              src={BeetleLogo}
+              alt={"Snowball Logo"}
+              src={SnowballLogo}
               className="w-40 md:w-[180px]"
             />
           </a>
           <div className="flex space-x-2 items-center">
             <a
-              href="https://www.linkedin.com/company/beetle-ltd/"
+              href="https://www.linkedin.com/company/snowball-ltd/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -66,7 +66,7 @@ const Footer = () => {
               </motion.div>
             </a>
             <a
-              href="https://x.com/Beetle_ltd"
+              href="https://x.com/Snowball_ltd"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -75,7 +75,7 @@ const Footer = () => {
               </motion.div>
             </a>
             <a
-              href="https://www.instagram.com/beetle.ltd"
+              href="https://www.instagram.com/snowball.ltd"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -96,7 +96,7 @@ const Footer = () => {
             }}
             className={"text-white text-sm  xl:text-justify"}
           >
-            Copyright © 2024 Beetle Ltd. All rights reserved.
+            Copyright © 2024 Snowball Ltd. All rights reserved.
           </motion.p>
         </motion.div>
         <motion.div
@@ -147,10 +147,10 @@ const Footer = () => {
           <p>5B Salimonu Estate, New Bodija, Ibadan, Nigeria.</p>
           <div className={"flex flex-col space-y-1 justify-end"}>
             <a
-              href="mailto:contact@beetle.com"
+              href="mailto:contact@snowball.com"
               className="hover:text-gray-300 transition-colors"
             >
-              hello@beetleltd.org
+              hello@snowballtd.org
             </a>
           </div>
         </motion.div>

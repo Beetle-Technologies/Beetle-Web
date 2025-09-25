@@ -1,6 +1,6 @@
-# Beetle
+# Snowball
 
-The homepage of Beetle Ltd
+The homepage of Snowball Ltd
 
 ## Preview
 

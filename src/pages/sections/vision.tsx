@@ -69,7 +69,7 @@ const VisionSection = () => {
         className="max-w-3xl text-center"
       >
         <p className="text-xl md:text-3xl font-semibold text-gray-900 leading-relaxed">
-          At Beetle, we're driven by more than just business, we're
+          At Snowball, we're driven by more than just business, we're
           <span className="text-transparent bg-clip-text px-1 bg-gradient-to-r from-[#8C52FF] to-[#8C52FF]">
             inspired
           </span>

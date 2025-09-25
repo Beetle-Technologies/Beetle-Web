@@ -16,6 +16,8 @@ import Navigation from "../../../components/bloom/navigation";
 import { SocialLinks } from "../../../constants/socialLinks";
 import ScrollToTop from "../../../components/scroll-to-top";
 import { AppStoreButton, PlayStoreButton } from "../components/downloadButtons";
+import { SEOHead } from "../../../components/seo/SEOHead.tsx";
+import { useSEO } from "../../../hooks/useSEO.ts";
 
 const businessMenu = [
   {
@@ -62,9 +64,27 @@ const Chip = ({ children }: { children: React.ReactNode }) => {
 
 const Business = () => {
   const navigate = useNavigate();
+  const { generateStructuredData } = useSEO();
+
+  const structuredData = [
+    generateStructuredData.organization(),
+    generateStructuredData.service({
+      name: "Snowball for Businesses",
+      description: "Advanced commerce tools, analytics, and integrations to scale business operations and increase revenue",
+      provider: "Snowball",
+      serviceType: "Business Commerce Platform"
+    })
+  ];
 
   return (
     <>
+      <SEOHead
+        title="Snowball for Businesses | Scale Your Commerce Operations"
+        description="Discover how Snowball empowers businesses with advanced commerce tools, analytics, and integrations to scale operations and increase revenue."
+        keywords="snowball business, commerce platform, business tools, ecommerce solutions, business growth, analytics, integrations"
+        type="website"
+        structuredData={structuredData}
+      />
       <ScrollToTop />
       {/* navigation */}
       <Navigation
@@ -308,18 +328,18 @@ const Business = () => {
               <div className="text-center lg:text-left text-sm text-white">
                 Copyright © 2024
                 <Link to="/" className="hover:underline">
-                  &nbsp;Beetle Ltd.&nbsp;
+                  &nbsp;Snowball Ltd.&nbsp;
                 </Link>
                 All rights reserved.
               </div>
               <div className="flex justify-center lg:justify-start gap-x-4">
-                <a href={SocialLinks.LinkedInBeetle}>
+                <a href={SocialLinks.LinkedInSnowball}>
                   <img src={LinkedinSvg} alt="LinkedIn" className="h-6 w-6" />
                 </a>
-                <a href={SocialLinks.TwitterBeetle}>
+                <a href={SocialLinks.TwitterSnowball}>
                   <img src={TwitterSvg} alt="Twitter" className="h-6 w-6" />
                 </a>
-                <a href={SocialLinks.InstagramBeetle}>
+                <a href={SocialLinks.InstagramSnowball}>
                   <img src={InstagramSvg} alt="Instagram" className="h-6 w-6" />
                 </a>
               </div>

@@ -30,7 +30,7 @@ const AdminLoginPage = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="max-w-md w-full bg-white p-8 rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold text-center text-gray-800">
-          Beetle Admin Login
+          Snowball Admin Login
         </h2>
         <form onSubmit={handleLogin} className="mt-8 space-y-6">
           {error && (

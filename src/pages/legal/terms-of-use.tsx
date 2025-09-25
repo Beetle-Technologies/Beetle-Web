@@ -258,7 +258,7 @@ export const TermsOfUseBusinesses = () => {
           <ul className="list-disc pl-5 space-y-2">
             <li>
               All trademarks, logos, and content related to Bloom are the
-              property of Beetle Ltd.
+              property of Snowball Ltd.
             </li>
             <li>
               You may not copy, reproduce, or exploit any Bloom content without
@@ -343,7 +343,7 @@ export const TermsOfUseBusinesses = () => {
         </TextLayout>
         <TextLayout num="14" title="Indemnification">
           <p>
-            You agree to indemnify, defend, and hold harmless Bloom, Beetle, its
+            You agree to indemnify, defend, and hold harmless Bloom, Snowball, its
             affiliates, officers, directors, employees, and agents from any
             claims, damages, losses, liabilities, and expenses (including legal
             fees) arising from your use of the platform, any breach of these

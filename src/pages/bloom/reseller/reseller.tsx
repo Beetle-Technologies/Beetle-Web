@@ -18,6 +18,8 @@ import { SocialLinks } from "../../../constants/socialLinks";
 
 import { Link, useNavigate } from "react-router-dom";
 import { AppStoreButton, PlayStoreButton } from "../components/downloadButtons";
+import { SEOHead } from "../../../components/seo/SEOHead.tsx";
+import { useSEO } from "../../../hooks/useSEO.ts";
 
 const resellerMenu = [
   {
@@ -64,8 +66,27 @@ const Chip = ({ children }: { children: React.ReactNode }) => {
 
 const Reseller = () => {
   const navigate = useNavigate();
+  const { generateStructuredData } = useSEO();
+
+  const structuredData = [
+    generateStructuredData.organization(),
+    generateStructuredData.service({
+      name: "Snowball for Resellers",
+      description: "Join thousands of successful resellers using Snowball to source products, manage inventory, and scale their reselling operations",
+      provider: "Snowball",
+      serviceType: "Reseller Commerce Platform"
+    })
+  ];
+
   return (
     <>
+      <SEOHead
+        title="Snowball for Resellers | Grow Your Reselling Business"
+        description="Join thousands of successful resellers using Snowball to source products, manage inventory, and scale their reselling operations."
+        keywords="snowball resellers, reselling platform, product sourcing, inventory management, reseller tools, dropshipping, wholesale"
+        type="website"
+        structuredData={structuredData}
+      />
       <ScrollToTop />
       <Navigation
         colorScheme={resellerColorScheme}
@@ -339,18 +360,18 @@ const Reseller = () => {
               <div className="text-center lg:text-left text-sm text-white">
                 Copyright © 2024
                 <Link to="/" className="hover:underline">
-                  &nbsp;Beetle Ltd.&nbsp;
+                  &nbsp;Snowball Ltd.&nbsp;
                 </Link>
                 All rights reserved.
               </div>
               <div className="flex justify-center lg:justify-start gap-x-4">
-                <a href={SocialLinks.LinkedInBeetle}>
+                <a href={SocialLinks.LinkedInSnowball}>
                   <img src={LinkedinSvg} alt="LinkedIn" className="h-6 w-6" />
                 </a>
-                <a href={SocialLinks.TwitterBeetle}>
+                <a href={SocialLinks.TwitterSnowball}>
                   <img src={TwitterSvg} alt="Twitter" className="h-6 w-6" />
                 </a>
-                <a href={SocialLinks.InstagramBeetle}>
+                <a href={SocialLinks.InstagramSnowball}>
                   <img src={InstagramSvg} alt="Instagram" className="h-6 w-6" />
                 </a>
               </div>

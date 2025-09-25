@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
         </h1>
         <Line />
         <p className="max-w-[800px] text-sm xl:text-base">
-          This Privacy Policy describes how Beetle Limited ("Bloom," "we," "us,"
+          This Privacy Policy describes how Snowball Limited ("Bloom," "we," "us,"
           or "our") collects, uses, and shares your personal information when
           you use our mobile application ("App"). By using the App, you agree to
           the terms of this Privacy Policy.

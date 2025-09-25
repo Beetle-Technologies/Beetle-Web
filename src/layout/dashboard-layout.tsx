@@ -32,7 +32,7 @@ const AdminDashboardLayout = () => {
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } lg:translate-x-0 z-20 h-full`}
       >
-        <h1 className="text-2xl font-bold mb-6 text-center">Beetle Admin</h1>
+        <h1 className="text-2xl font-bold mb-6 text-center">Snowball Admin</h1>
         <nav className="flex flex-col space-y-4">
           {sidebarItems.map((item) => (
             <Link

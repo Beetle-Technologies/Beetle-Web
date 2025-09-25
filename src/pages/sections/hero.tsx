@@ -34,7 +34,7 @@ const HeroSection = () => {
           for everyone
         </h1>
         <p className="text-lg font-medium text-text max-w-xl mx-auto leading-7">
-          At Beetle, we are committed to building truly remarkable products and
+          At Snowball, we are committed to building truly remarkable products and
           processes that make commerce better for you.
         </p>
       </motion.div>

@@ -29,7 +29,7 @@ const Blog = () => {
             <Link to="/">
               <img
                 src={LogoWhite}
-                alt="Beetle Logo"
+                alt="Snowball Logo"
                 className="h-6 sm:h-6 cursor-pointer"
               />
             </Link>
