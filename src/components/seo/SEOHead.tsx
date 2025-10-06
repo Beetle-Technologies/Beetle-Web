@@ -220,10 +220,7 @@ export const SEOHead: React.FC<SEOProps> = ({
               fbq('track', 'PageView');
             `}
           </script>
-          <noscript>
-            <img height="1" width="1" style={{display: 'none'}}
-                 src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1" />
-          </noscript>
+          <noscript>{`<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1" />`}</noscript>
 
           {/* LinkedIn Insight Tag */}
           <script type="text/javascript">
@@ -245,10 +242,7 @@ export const SEOHead: React.FC<SEOProps> = ({
               s.parentNode.insertBefore(b, s);})(window.lintrk);
             `}
           </script>
-          <noscript>
-            <img height="1" width="1" style={{display: 'none'}} alt=""
-                 src="https://px.ads.linkedin.com/collect/?pid=YOUR_LINKEDIN_PARTNER_ID&fmt=gif" />
-          </noscript>
+          <noscript>{`<img height="1" width="1" style="display:none" alt="" src="https://px.ads.linkedin.com/collect/?pid=YOUR_LINKEDIN_PARTNER_ID&fmt=gif" />`}</noscript>
         </>
       )}
 
