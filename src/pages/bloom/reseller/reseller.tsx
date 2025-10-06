@@ -117,9 +117,9 @@ const Reseller = () => {
               resell.
             </p>
             <div className="flex justify-center md:justify-start sm:flex-row gap-x-1 md:gap-4">
-              <AppStoreButton url="https://apps.apple.com/ng/app/bloom-for-resellers/id6739034527" />
+              <AppStoreButton url="#" />
               <PlayStoreButton
-                url="https://play.google.com/store/apps/details?id=your.app.id"
+                url="#"
                 className=""
               />
             </div>
@@ -310,9 +310,9 @@ const Reseller = () => {
           </div> */}
 
           <div className=" flex justify-center sm:flex-row gap-x-1 md:gap-4">
-            <AppStoreButton url="https://apps.apple.com/ng/app/bloom-for-resellers/id6739034527" />
+            <AppStoreButton url="#" />
             <PlayStoreButton
-              url="https://play.google.com/store/apps/details?id=your.app.id"
+              url="#"
               className=""
             />
           </div>

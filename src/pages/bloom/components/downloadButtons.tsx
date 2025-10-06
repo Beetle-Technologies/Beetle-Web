@@ -18,6 +18,7 @@ export const AppStoreButton = ({
       target="_blank"
       rel="noopener noreferrer"
       className={`inline-flex gap-x-1 sm:gap-x-2 md:gap-x-3 items-center bg-black text-white py-2 px-4 sm:py-3 sm:px-6 rounded-xl font-semibold hover:scale-105 transition ease-in-out ${className}`}
+      onClick={(e) => e.preventDefault()}
     >
       <div className="flex flex-col items-start">
         <span className="text-xs font-normal">Download on the</span>

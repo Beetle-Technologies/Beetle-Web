@@ -116,8 +116,8 @@ const Business = () => {
               quickly.
             </p>
             <div className=" flex justify-center md:justify-start sm:flex-row gap-x-1 md:gap-4">
-              <AppStoreButton url="https://apps.apple.com/us/app/bloom-for-businesses/id6738230276" />
-              <PlayStoreButton url="https://play.google.com/store/apps/details?id=your.app.id" />
+              <AppStoreButton url="#" />
+              <PlayStoreButton url="#" />
             </div>
           </div>
 
@@ -278,8 +278,8 @@ const Business = () => {
             />
           </div> */}
           <div className="flex justify-center sm:flex-row gap-x-1 md:gap-4">
-            <AppStoreButton url="https://apps.apple.com/us/app/bloom-for-businesses/id6738230276" />
-            <PlayStoreButton url="https://play.google.com/store/apps/details?id=your.app.id" />
+            <AppStoreButton url="#" />
+            <PlayStoreButton url="#" />
           </div>
         </div>
       </section>
