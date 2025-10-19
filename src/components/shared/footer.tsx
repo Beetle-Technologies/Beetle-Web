@@ -5,7 +5,7 @@ import { useAnimation } from "framer-motion";
 import InstagramIcon from "@/assets/socials/instagram.svg";
 import LinkedInIcon from "@/assets/socials/linkedin.svg";
 import TwitterIcon from "@/assets/socials/twitter.svg";
-import SnowballLogo from "@/assets/beetle-logo-white.svg";
+import SnowballLogo from "@/assets/snowball-test.jpg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {

@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import Logo from "@/assets/beetle-logo.svg";
+import Logo from "@/assets/snowball-test.jpg";
 import { Link } from "react-router-dom";
 
 const menuItems = [
